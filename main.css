@@ -1,0 +1,73 @@
+body {
+    font-family: Montserrat, sans serif;
+    margin: 0;
+    /* text-align: center; */
+
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main_header {
+    /*
+    background: #52c234;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #061700, #52c234);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #061700, #52c234); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    background-image: url("./images/trianglify-lowres.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.intro-section {
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 10rem; 
+}
+
+h2 {
+    font-family: 'Michroma', sans-serif;
+}
+
+.display-1 {
+    color: #097969;
+       /* color: #2E8B57; */
+}
+
+.parent {
+    position: relative;
+    
+  }
+
+.tadpole-logo {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top: 3rem;
+    opacity: 0.65;
+  }
+
+.tadpole-description{
+    position: relative;   
+    bottom: 30rem;
+    /* margin: 0;  */
+
+}  
+
+.description-section {
+    background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
+}
+
+/* Media queries */
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 600px){ 
+    .tadpole-description{
+        bottom: 10rem;
+    }  
+}
