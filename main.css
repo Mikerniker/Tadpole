@@ -86,6 +86,18 @@ h2 {
   ); */
 }
 
+
+
+.btn-outline-secondary {
+  color: #097969 !important;
+  outline-color: #097969 !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #C2DEDA !important;
+
+} 
+
 /* Media queries */
 /* Small devices (tablets, 768px and up) */
 @media screen and (max-width: 600px) {
